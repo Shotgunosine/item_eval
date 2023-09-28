@@ -1,0 +1,374 @@
+var_name	measure	subscale	ename	description	text
+caseid			caseid	Case ID	
+birthyr			birthyr	Birth Year	
+gender			gender	Gender	
+sex			sex	Assigned sex at birth	
+educ			educ	Education	
+inputstate			inputstate	State of Residence	
+sample_type			sample_type	Sample type	
+screener_1			screener_1ongoing	Screener 1	
+screener_2			screener_2impact	Screener 2	
+screener_3_1			screener_3depression	Screener 3 -- Do you experience depression?	
+screener_3_2			screener_4anxiety	Screener 3 -- Do you experience anxiety?	
+screener_3_3			screener_5attention	Screener 3 -- Do you consider yourself to have attention deficit disorder (ADD)/attention deficit hyperactivity disorder (ADHD)?	
+consent			consent	Consent	
+FNM_Q24			mood_yn	Mood Disorder Diagnosis	
+FNM_Q25_1				Mood Disorder Details - Major Depressive Disorder	
+FNM_Q25_2				Mood Disorder Details - Persistent Depressive Disorder (Dysthymia)	
+FNM_Q25_3				Mood Disorder Details - Premenstrual Dysphoric Disorder	
+FNM_Q25_4				Mood Disorder Details - Bipolar I Disorder	
+FNM_Q25_5				Mood Disorder Details - Bipolar II Disorder	
+FNM_Q25_6				Mood Disorder Details - Cyclothymic Disorder	
+FNM_Q25_955				Mood Disorder Details - Other	
+FNM_Q25_933				Mood Disorder Details - Prefer not to answer	
+FNM_Q26_d			mood_years	Mood Disorder Years	
+FNM_Q27_1				Mood Disorder Treatment - I am not receiving treatment for a mood disorder	
+FNM_Q27_2				Mood Disorder Treatment - One-on-one talk therapy with a professional	
+FNM_Q27_3				Mood Disorder Treatment - Group therapy	
+FNM_Q27_4				Mood Disorder Treatment - Selective Serotonin Reuptake Inhibitor (SSRI)	
+FNM_Q27_5				Mood Disorder Treatment - Serotonin and Norepinephrine Reuptake Inhibitor (SNRI)	
+FNM_Q27_6				Mood Disorder Treatment - Tricyclic Antidepressant (TCA)	
+FNM_Q27_7				Mood Disorder Treatment - Monoamine Oxidase Inhibitor (MAOI)	
+FNM_Q27_8				Mood Disorder Treatment - Serotonin Antagonist and Reuptake Inhibitors	
+FNM_Q27_9				Mood Disorder Treatment - Remeron (mirtazapine)	
+FNM_Q27_10				Mood Disorder Treatment - Symbax (olanzapine/fluoxotine)	
+FNM_Q27_11				Mood Disorder Treatment - Wellbutrin (buproprion)	
+FNM_Q27_12				Mood Disorder Treatment - Lithium	
+FNM_Q27_13				"Mood Disorder Treatment - Depakane (valproate), Epival (divalproex)"	
+FNM_Q27_14				"Mood Disorder Treatment - Tegretol (carbamazepine), Trileptal (oxcarbazepine)"	
+FNM_Q27_15				Mood Disorder Treatment - Lamictal (lamotrigine)	
+FNM_Q27_16				Mood Disorder Treatment - Haloperidol (haldol decanoate)	
+FNM_Q27_17				"Mood Disorder Treatment - Abilify (aripiprazole), Saphris (asenapine), Vraylar (cariprazine), Zyprexa (olanzapine), Risperdal (risperdone)"	
+FNM_Q27_18				Mood Disorder Treatment - Latuda (lurasidone)	
+FNM_Q27_19				"Mood Disorder Treatment - Caplyta (lumaterperone), Seroquel (quetiapine)"	
+FNM_Q27_955				Mood Disorder Treatment - Other	
+FNM_Q27_933				Mood Disorder Treatment - Prefer not to answer	
+FNM_Q28			mood_bothered	Mood Disorder bother 2 past weeks	
+FNM_Q29			anxiety_yn	Anxiety Disorder Diagnosis	
+FNM_Q30_m_1				Anxiety Disorder Details - Generalized Anxiety Disorder	
+FNM_Q30_m_2				Anxiety Disorder Details - Separation Anxiety Disorder	
+FNM_Q30_m_3				Anxiety Disorder Details - Agoraphobia	
+FNM_Q30_m_4				Anxiety Disorder Details - Specific Phobia	
+FNM_Q30_m_5				Anxiety Disorder Details - Social Anxiety Disorder (Social Phobia)	
+FNM_Q30_m_6				Anxiety Disorder Details - Panic Disorder	
+FNM_Q30_m_7				Anxiety Disorder Details - Panic Attack	
+FNM_Q30_m_8				Anxiety Disorder Details - Selective Mutism	
+FNM_Q30_m_955				Anxiety Disorder Details - Other	
+FNM_Q30_m_933				Anxiety Disorder Details - Prefer not to answer	
+FNM_Q31_d			anxiety_years	Anxiety Disorder Years from diagnosis	
+FNM_Q32_1				Anxiety Disorder Treatment - I am not receiving treatment for an anxiety disorder	
+FNM_Q32_2				Anxiety Disorder Treatment - One-on-one talk therapy with a professional	
+FNM_Q32_3				Anxiety Disorder Treatment - Group therapy	
+FNM_Q32_4				Anxiety Disorder Treatment - Selective Serotonin Reuptake Inhibitor (SSRI)	
+FNM_Q32_5				Anxiety Disorder Treatment - Serotonin and Norepinephrine Reuptake Inhibitor (SNRI)	
+FNM_Q32_6				Anxiety Disorder Treatment - Tricyclic Antidepressant (TCA)	
+FNM_Q32_7				Anxiety Disorder Treatment - Benzodiazepine	
+FNM_Q32_8				Anxiety Disorder Treatment - Monoamine Oxidase Inhibitor (MAOI)	
+FNM_Q32_9				Anxiety Disorder Treatment - Beta-blocker	
+FNM_Q32_10				Anxiety Disorder Treatment - BuSpar (buspirone)	
+FNM_Q32_955				Anxiety Disorder Treatment - Other	
+FNM_Q32_933				Anxiety Disorder Treatment - Prefer not to answer	
+FNM_Q33			anxiety_bothered	Anxiety Disorder 2 weeks bothered	
+FNM_34			attention_yn	Attention Disorders Diagnosis	
+FNM_Q35_m_1				Attention Disorder details - Attention-Deficit/Hyperactivity Disorder (ADHD)	
+FNM_Q35_m_2				Attention Disorder details - Attention-Deficit Disorder (ADD)	
+FNM_Q35_m_3				Attention Disorder details - Other	
+FNM_Q35_m_933				Attention Disorder details - Prefer not to answer	
+FNM_Q36_d			attention_years	Attention Disorder Years diagnosed	
+FNM_Q37_m_1				Attention Disorder Treatments - I am not receiving treatment for an attention disorder	
+FNM_Q37_m_2				Attention Disorder Treatments - One-on-one talk therapy with a professional	
+FNM_Q37_m_3				Attention Disorder Treatments - Group therapy	
+FNM_Q37_m_4				Attention Disorder Treatments - Amphetamine	
+FNM_Q37_m_5				Attention Disorder Treatments - Methylphenidate	
+FNM_Q37_m_6				Attention Disorder Treatments - Strattera (atomoxetine)	
+FNM_Q37_m_7				Attention Disorder Treatments - Wellbutrin (buproprion)	
+FNM_Q37_m_8				Attention Disorder Treatments - Intuniv (guanfacine)	
+FNM_Q37_m_9				"Attention Disorder Treatments - Catapres, Kapvay (clonidine)"	
+FNM_Q37_m_955				Attention Disorder Treatments - Other	
+FNM_Q37_m_933				Attention Disorder Treatments - Prefer not to answer	
+FNM_Q38			attention_bothered	Attention disorder bothered 2 weeks	
+FNM_Q1_1	BAARS-IV	Inattention	inattention_1	Inattention	Fail to give close attention to details or make careless mistakes in my work or other activities
+FNM_Q1_2	BAARS-IV	Inattention	inattention_2	Inattention	Difficulty sustaining my attention in tasks or fun activities
+FNM_Q1_3	BAARS-IV	Inattention	inattention_3	Inattention	Don't listen when spoken to directly
+FNM_Q1_4	BAARS-IV	Inattention	inattention_4	Inattention	Don't follow through on instructions and fail to finish work or chores
+FNM_Q1_5	BAARS-IV	Inattention	inattention_5	Inattention	Have difficulty organizing tasks and activities
+FNM_Q1_6	BAARS-IV	Inattention	inattention_6	Inattention	"Avoid, dislike, or am reluctant to engage in tasks that require sustained mental effort"
+FNM_Q1_7	BAARS-IV	Inattention	inattention_7	Inattention	Lose things necessary for tasks or activities
+FNM_Q1_8	BAARS-IV	Inattention	inattention_8	Inattention	Easily distracted by extraneous stimuli or irrelevant thoughts
+FNM_Q1_9	BAARS-IV	Inattention	inattention_9	Inattention	Forgetful in daily activities
+FNM_Q2_1	BAARS-IV	Hyperactivity	hyperactivity_1	Hyperactivity	Fidget with hands or feet or squirm in seat
+FNM_Q2_2	BAARS-IV	Hyperactivity	hyperactivity_2	Hyperactivity	Leave my seat in classrooms or in other situations in which remaining seated is expected
+FNM_Q2_3	BAARS-IV	Hyperactivity	hyperactivity_3	Hyperactivity	Shift around excessively or feel restless or hemmed in
+FNM_Q2_4	BAARS-IV	Hyperactivity	hyperactivity_4	Hyperactivity	"Have difficulty engaging in leisure activities quietly (feel uncomfortable, or am loud or noisy)"
+FNM_Q2_5	BAARS-IV	Hyperactivity	hyperactivity_5	Hyperactivity	"I am ""on the go"" or act as if ""driven by a motor"" (or I feel like I have to be busy or always doing something)"
+FNM_Q3_1	BAARS-IV	Impulsivity	impulsivity_1	Impulsivity	Talk excessively (in social situations)
+FNM_Q3_2	BAARS-IV	Impulsivity	impulsivity_2	Impulsivity	"Blurt out answers before questions have been completed, complete others' sentences, or jump the gun"
+FNM_Q3_3	BAARS-IV	Impulsivity	impulsivity_3	Impulsivity	Have difficulty awaiting my turn
+FNM_Q3_4	BAARS-IV	Impulsivity	impulsivity_4	Impulsivity	Interrupt or intrude on others (butt into conversations or activities without permission or take over what others are doing)
+Q1_1				Impulsivity	Talk excessively (in social situations) (1)
+Q1_2				Impulsivity	"Blurt out answers before questions have been completed, complete others' sentences, or jump the gun (1)"
+Q1_3				Impulsivity	Have difficulty awaiting my turn (1)
+Q1_4				Impulsivity	Interrupt or intrude on others (butt into conversations or activities without permission or take over what others are doing) (1)
+FNM_Q4_1	BAARS-IV	Sluggish Cognitive Tempo	sct_1	Sluggish Cognitive Tempo	Prone to daydreaming when I should be concentrating on something or working
+FNM_Q4_2	BAARS-IV	Sluggish Cognitive Tempo	sct_2	Sluggish Cognitive Tempo	Have trouble staying alert or awake in boring situations
+FNM_Q4_3	BAARS-IV	Sluggish Cognitive Tempo	sct_3	Sluggish Cognitive Tempo	Easily confused
+FNM_Q4_4	BAARS-IV	Sluggish Cognitive Tempo	sct_4	Sluggish Cognitive Tempo	Easily bored
+FNM_Q4_5	BAARS-IV	Sluggish Cognitive Tempo	sct_5	Sluggish Cognitive Tempo	"Spacey or ""in a fog"""
+FNM_Q4_6	BAARS-IV	Sluggish Cognitive Tempo	sct_6	Sluggish Cognitive Tempo	"Lethargic, more tired than others"
+FNM_Q4_7	BAARS-IV	Sluggish Cognitive Tempo	sct_7	Sluggish Cognitive Tempo	Underactive or have less energy than others
+FNM_Q4_8	BAARS-IV	Sluggish Cognitive Tempo	sct_8	Sluggish Cognitive Tempo	Slow moving
+FNM_Q4_9	BAARS-IV	Sluggish Cognitive Tempo	sct_9	Sluggish Cognitive Tempo	I don't seem to process information as quickly or as accurately as others
+FNM_Q5_1	GAD-7		gad_1	GAD7	"Feeling nervous, anxious, or on edge"
+FNM_Q5_2	GAD-7		gad_2	GAD7	Not being able to stop or control worrying
+FNM_Q5_3	GAD-7		gad_3	GAD7	Worrying too much about different things
+FNM_Q5_4	GAD-7		gad_4	GAD7	Trouble relaxing
+FNM_Q5_5	GAD-7		gad_5	GAD7	Being so restless that it is hard to sit still
+FNM_Q5_6	GAD-7		gad_6	GAD7	Becoming easily annoyed or irritable
+FNM_Q5_7	GAD-7		gad_7	GAD7	"Feeling afraid, as if something awful might happen"
+FNM_Q6_1	PHQ-8		phq_1	PHQ8-1	Little interest or pleasure in doing things
+FNM_Q6_2	PHQ-8		phq_2	PHQ8-1	"Feeling down, depressed, irritable or hopeless"
+FNM_Q6_3	PHQ-8		phq_3	PHQ8-1	"Trouble falling or staying asleep, or sleeping too much"
+FNM_Q6_4	PHQ-8		phq_4	PHQ8-1	Feeling tired or having little energy
+FNM_Q6_5	PHQ-8		phq_5	PHQ8-1	Poor appetite or overeating
+FNM_Q6_6	PHQ-8		phq_6	PHQ8-1	Feeling bad about yourself – or that you are a failure or have let yourself or your family down
+FNM_Q6_7	PHQ-8		phq_7	PHQ8-1	"Trouble concentrating on things, such as school work, reading or watching television"
+FNM_Q6_8	PHQ-8		phq_8	PHQ8-1	Moving or speaking so slowly that other people could have noticed? Or the opposite – being so fidgety or restless that you have been moving around a lot more than usual
+FNM_Q7_1	1	anhedonic depression	hitop157	PHQ8-Q2	I had very little energy.
+FNM_Q7_2	2	separation insecurity	hitop81	PHQ8-Q2	I worried that others would abandon me.
+FNM_Q7_3	3	anxious worry	hitop34	PHQ8-Q2	Thoughts were racing through my head.
+FNM_Q7_4	4	well-being	hitop54	PHQ8-Q2	It was easy for me to laugh.
+FNM_Q7_5	5	appetite gain	hitop243	PHQ8-Q2	I stuffed myself with food.
+FNM_Q8_1	6	anhedonic depression	hitop182	PHQ8-Q3	I was unable to enjoy things like I normally do.
+FNM_Q8_2	7	separation insecurity	hitop69	PHQ8-Q3	I wanted other people to take care of me.
+FNM_Q8_3	8	anxious worry	hitop89	PHQ8-Q3	I had a lot of nervous energy.
+FNM_Q8_4	9	separation insecurity	hitop50	PHQ8-Q3	I wanted someone else to make decisions for me.
+FNM_Q8_5	10	check question	check_moderately	PHQ8-Q3	"To check if you are a true respondent, please select ""Moderately"" for this item."
+FNM_Q8_6	11	social anxiety	hitop129	PHQ8-Q3	I avoided performing or giving a talk in front of others.
+FNM_Q9_1	12	anxious worry	hitop265	PHQ8-Q4	I was overwhelmed by anxiety.
+FNM_Q9_2	13	social anxiety	hitop124	PHQ8-Q4	I avoided situations in which others were likely to watch me.
+FNM_Q9_3	14	hyposomnia	hitop231	PHQ8-Q4	I felt like I could go for days without sleeping.
+FNM_Q9_4	15	anhedonic depression	hitop93	PHQ8-Q4	Nothing seemed interesting to me.
+FNM_Q9_5	16	cognitive problems	hitop67	PHQ8-Q4	I could not stay focused on what I was doing.
+FNM_Q10_1	17	well-being	hitop245	PHQ-Q5	I looked forward to things with enjoyment.
+FNM_Q10_2	18	well-being	hitop281	PHQ-Q5	I felt that I had a lot to look forward to.
+FNM_Q10_3	19	appetite gain	hitop141	PHQ-Q5	I thought a lot about food.
+FNM_Q10_4	20	separation insecurity	hitop40	PHQ-Q5	I felt insecure about important relationships in my life.
+FNM_Q10_5	21	social anxiety	hitop204	PHQ-Q5	I felt uncomfortable being the center of attention.
+FNM_Q11_1	22	indecisiveness	hitop21	PHQ8-Q6	I was indecisive.
+FNM_Q11_2	23	social anxiety	hitop236	PHQ8-Q6	I felt self-conscious around others.
+FNM_Q11_3	24	appetite loss	hitop280	PHQ8-Q6	My appetite was poor.
+FNM_Q11_4	25	anhedonic depression	hitop84	PHQ8-Q6	I felt depressed.
+FNM_Q11_5	26	appetite gain	hitop120	PHQ8-Q6	I could not keep myself from eating.
+FNM_Q12_1	27	anhedonic depression	hitop77	PHQ8-Q7	I didn't look forward to seeing friends or family.
+FNM_Q12_2	28	anhedonic depression	hitop92	PHQ8-Q7	It took a lot of effort to do everyday activities.
+FNM_Q12_3	29	social anxiety	hitop258	PHQ8-Q7	I found it difficult to speak up in front of others.
+FNM_Q12_4	30	anhedonic depression	hitop39	PHQ8-Q7	It felt like there wasn't anything interesting or fun to do.
+FNM_Q12_5	31	insomnia	hitop254	PHQ8-Q7	I slept very poorly.
+FNM_Q13_1	32	panic	hitop215	PHQ8-Q8	My hands were cold or sweaty.
+FNM_Q13_2	33	indecisiveness	hitop95	PHQ8-Q8	I had trouble making up my mind.
+FNM_Q13_3	34	well-being	hitop106	PHQ8-Q8	I was proud of myself.
+FNM_Q13_4	35	appetite loss	hitop283	PHQ8-Q8	I lost a significant amount of weight without even trying.
+FNM_Q13_5	36	situational phobia	hitop16	PHQ8-Q8	I avoided riding in elevators.
+FNM_Q14_1	37	anxious worry	hitop20	PHQ-Q9	I felt tense.
+FNM_Q14_2	38	cognitive problems	hitop189	PHQ-Q9	I was easily distracted.
+FNM_Q14_3	39	social anxiety	hitop1	PHQ-Q9	I felt shy around other people.
+FNM_Q14_4	40	separation insecurity	hitop136	PHQ-Q9	I often felt jealous.
+FNM_Q14_5	41	anhedonic depression	hitop246	PHQ-Q9	I was a lot less talkative than usual.
+FNM_Q15_1	42	anxious worry	hitop248	PHQ-Q10	I worried about almost everything.
+FNM_Q15_2	43	panic	hitop257	PHQ-Q10	I felt dizzy or lightheaded.
+FNM_Q15_3	44	social anxiety	hitop114	PHQ-Q10	I had difficulty making eye contact with others.
+FNM_Q15_4	45	social anxiety	hitop117	PHQ-Q10	I felt socially awkward.
+FNM_Q15_5	46	well-being	hitop250	PHQ-Q10	I felt like I had a lot of interesting things to do.
+FNM_Q16_1	47	well-being	hitop200	PHQ-Q11	I found compliments very encouraging.
+FNM_Q16_2	48	insomnia	hitop160	PHQ-Q11	I had trouble staying asleep.
+FNM_Q16_3	49	well-being	hitop23	PHQ-Q11	I felt cheerful.
+FNM_Q16_4	50	situational phobia	hitop165	PHQ-Q11	I was afraid of flying.
+FNM_Q16_5	51	well-being	hitop244	PHQ-Q11	I felt optimistic.
+FNM_Q17_1	52	well-being	hitop9	PHQ-Q12	I felt like I was having a lot of fun.
+FNM_Q17_2	53	cognitive problems	hitop142	PHQ-Q12	I had trouble remembering things.
+FNM_Q17_3	54	anhedonic depression	hitop230	PHQ-Q12	I felt emotionally numb.
+FNM_Q17_4	55	well-being	hitop149	PHQ-Q12	I felt good about myself.
+FNM_Q17_5	56	situational phobia	hitop247	PHQ-Q12	I was afraid of heights.
+FNM_Q18_1	57	hyposomnia	hitop99	PHQ-Q13	I needed much less sleep than usual.
+FNM_Q18_2	58	hyposomnia	hitop66	PHQ-Q13	"I did not feel tired, even though I was sleeping less than usual."
+FNM_Q18_3	59	anxious worry	hitop240	PHQ-Q13	"I felt nervous and ""on edge""."
+FNM_Q18_4	60	social anxiety	hitop222	PHQ-Q13	I was uncomfortable entering a room when others already were present.
+FNM_Q18_5	61	indecisiveness	hitop90	PHQ-Q13	It was difficult for me to make decisions.
+FNM_Q19_1	62	separation insecurity	hitop113	PHQ-Q14	I could not handle rejection.
+FNM_Q19_2	63	situational phobia	hitop278	PHQ-Q14	I became very anxious during a storm.
+FNM_Q19_3	64	anxious worry	hitop203	PHQ-Q14	I felt very stressed.
+FNM_Q19_4	65	cognitive problems	hitop159	PHQ-Q14	I was unable to keep my mind on what I was doing.
+FNM_Q19_5	66	anhedonic depression	hitop123	PHQ-Q14	Nothing made me laugh.
+FNM_Q20_1	67	appetite gain	hitop275	PHQ-Q15	I ate even when I was not really hungry.
+FNM_Q20_2	68	insomnia	hitop268	PHQ-Q15	I lay awake for a long time before falling asleep.
+FNM_Q20_3	69	situational phobia	hitop225	PHQ-Q15	I was afraid of the dark.
+FNM_Q20_4	70	shame/guilt	hitop143	PHQ-Q15	I felt guilty.
+FNM_Q20_5	71	separation insecurity	hitop151	PHQ-Q15	I felt that I needed the approval of others.
+FNM_Q21_1	72	hyposomnia	hitop181	PHQ-Q16	I felt like I could keep going and going without ever getting tired.
+FNM_Q21_2	73	panic	hitop211	PHQ-Q16	I was trembling or shaking.
+FNM_Q21_3	74	social anxiety	hitop17	PHQ-Q16	I was uncomfortable meeting new people.
+FNM_Q21_4	75	panic	hitop126	PHQ-Q16	My heart was racing or pounding.
+FNM_Q21_5	76	hyposomnia	hitop5	PHQ-Q16	I had days when I never got tired.
+FNM_Q22_1	77	insomnia	hitop261	PHQ-Q17	I woke up early and could not get back to sleep.
+FNM_Q22_2	78	shame/guilt	hitop220	PHQ-Q17	I felt ashamed of things I had done.
+FNM_Q22_3	79	check question	check_notatall	PHQ-Q17	"To check if you are a true respondent, please select ""Not at all"" for this item."
+FNM_Q22_4	80	panic	hitop15	PHQ-Q17	I was short of breath
+FNM_Q22_5	81	shame/guilt	hitop72	PHQ-Q17	I was disgusted with myself.
+FNM_Q22_6	82	shame/guilt	hitop140	PHQ-Q17	I blamed myself for things.
+FNM_Q23_1	83	appetite loss	hitop109	PHQ-Q18	I did not feel much like eating.
+FNM_Q23_2	84	separation insecurity	hitop197	PHQ-Q18	I could not stand being alone.
+FNM_Q23_3	85	panic	hitop104	PHQ-Q18	I felt nauseated.
+FNM_Q40_m_1			todayinattention_1	Statements Apply Today 1	Fail to give close attention to details or make careless mistakes in my work or other activities
+FNM_Q40_m_2			todayinattention_2	Statements Apply Today 1	Difficulty sustaining my attention in tasks or fun activities
+FNM_Q40_m_3			todayinattention_3	Statements Apply Today 1	Don't listen when spoken to directly
+FNM_Q40_m_4			todayinattention_4	Statements Apply Today 1	Don't follow through on instructions and fail to finish work or chores
+FNM_Q40_m_5			todayinattention_5	Statements Apply Today 1	Have difficulty organizing tasks and activities
+FNM_Q40_m_6			todayinattention_6	Statements Apply Today 1	"Avoid, dislike, or am reluctant to engage in tasks that require sustained mental effort"
+FNM_Q40_m_7			todayinattention_7	Statements Apply Today 1	Lose things necessary for tasks or activities
+FNM_Q40_m_8			todayinattention_8	Statements Apply Today 1	Easily distracted by extraneous stimuli or irrelevant thoughts
+FNM_Q40_m_9			todayinattention_9	Statements Apply Today 1	Forgetful in daily activities
+FNM_Q40_m_10			todayhyperactivity_1	Statements Apply Today 1	Fidget with hands or feet or squirm in seat
+FNM_Q40_m_11			todayhyperactivity_2	Statements Apply Today 1	Leave my seat in classrooms or in other situations in which remaining seated is expected
+FNM_Q40_m_12			todayhyperactivity_3	Statements Apply Today 1	Shift around excessively or feel restless or hemmed in
+FNM_Q40_m_13			todayhyperactivity_4	Statements Apply Today 1	"Have difficulty engaging in leisure activities quietly (feel uncomfortable, or am loud or noisy)"
+FNM_Q40_m_14			todayhyperactivity_5	Statements Apply Today 1	I am 'on the go' or act as if 'driven by a motor' (or I feel like I have to be busy or always doing something)
+FNM_Q40_m_15			todayimpulsivity_1	Statements Apply Today 1	Talk excessively (in social situations)
+FNM_Q40_m_16			todayimpulsivity_2	Statements Apply Today 1	"Blurt out answers before questions have been completed, complete others' sentences, or jump the gun"
+FNM_Q40_m_17			todayimpulsivity_3	Statements Apply Today 1	Have difficulty awaiting my turn
+FNM_Q40_m_18			todayimpulsivity_4	Statements Apply Today 1	Interrupt or intrude on others (butt into conversations or activities without permission or take over what others are doing)
+FNM_Q40_m_19			todaysct_1	Statements Apply Today 1	Prone to daydreaming when I should be concentrating on something or working
+FNM_Q40_m_20			todaysct_2	Statements Apply Today 1	Have trouble staying alert or awake in boring situations
+FNM_Q40_m_21			todaysct_3	Statements Apply Today 1	Easily confused
+FNM_Q40_m_22			todaysct_4	Statements Apply Today 1	Easily bored
+FNM_Q40_m_23			todaysct_5	Statements Apply Today 1	Spacey or 'in a fog
+FNM_Q40_m_24			todaysct_6	Statements Apply Today 1	"Lethargic, more tired than others"
+FNM_Q40_m_25			todaysct_7	Statements Apply Today 1	Underactive or have less energy than others
+FNM_Q40_m_26			todaysct_8	Statements Apply Today 1	Slow moving
+FNM_Q40_m_27			todaysct_9	Statements Apply Today 1	I don't seem to process information as quickly or as accurately as others
+FNM_Q40_m_944			today_na1	Statements Apply Today 1	None of these apply to me today
+FNM_Q41_m_1			todaygad_1	Statements Apply Today 2	"Feeling nervous, anxious, or on edge"
+FNM_Q41_m_2			todaygad_2	Statements Apply Today 2	Not being able to stop or control worrying
+FNM_Q41_m_3			todaygad_3	Statements Apply Today 2	Worrying too much about different things
+FNM_Q41_m_4			todaygad_4	Statements Apply Today 2	Trouble relaxing
+FNM_Q41_m_5			todaygad_5	Statements Apply Today 2	Being so restless that it is hard to sit still
+FNM_Q41_m_6			todaygad_6	Statements Apply Today 2	Becoming easily annoyed or irritable
+FNM_Q41_m_7			todaygad_7	Statements Apply Today 2	"Feeling afraid, as if something awful might happen"
+FNM_Q41_m_8			todayphq_1	Statements Apply Today 2	Little interest or pleasure in doing things
+FNM_Q41_m_9			todayphq_2	Statements Apply Today 2	"Feeling down, depressed, irritable or hopeless"
+FNM_Q41_m_10			todayphq_3	Statements Apply Today 2	"Trouble falling or staying asleep, or sleeping too much"
+FNM_Q41_m_11			todayphq_4	Statements Apply Today 2	Feeling tired or having little energy
+FNM_Q41_m_12			todayphq_5	Statements Apply Today 2	Poor appetite or overeating
+FNM_Q41_m_13			todayphq_6	Statements Apply Today 2	Feeling bad about yourself – or that you are a failure or have let yourself or your family down
+FNM_Q41_m_14			todayphq_7	Statements Apply Today 2	"Trouble concentrating on things, such as school work, reading or watching television"
+FNM_Q41_m_15			todayphq_8	Statements Apply Today 2	Moving or speaking so slowly that other people could have noticed? Or the opposite – being so fidgety or restless that you have been moving around a lot
+FNM_Q41_m_944			today_na2	Statements Apply Today 2	NA
+FNM_Q42_m_1			todayhitop157	Statements Apply Today 3	I had very little energy
+FNM_Q42_m_2			todayhitop81	Statements Apply Today 3	I worried that others would abandon me
+FNM_Q42_m_3			todayhitop34	Statements Apply Today 3	Thoughts were racing through my head
+FNM_Q42_m_4			todayhitop54	Statements Apply Today 3	It was easy for me to laugh
+FNM_Q42_m_5			todayhitop243	Statements Apply Today 3	I stuffed myself with food
+FNM_Q42_m_6			todayhitop182	Statements Apply Today 3	I was unable to enjoy things like I normally do
+FNM_Q42_m_7			todayhitop69	Statements Apply Today 3	I wanted other people to take care of me
+FNM_Q42_m_8			todayhitop89	Statements Apply Today 3	I had a lot of nervous energy
+FNM_Q42_m_9			todayhitop50	Statements Apply Today 3	I wanted someone else to make decisions for me
+FNM_Q42_m_10			todaycheck_1	Statements Apply Today 3	"To check if you are a true respondent, please select this item"
+FNM_Q42_m_11			todayhitop129	Statements Apply Today 3	I avoided performing or giving a talk in front of others
+FNM_Q42_m_12			todayhitop265	Statements Apply Today 3	I was overwhelmed by anxiety
+FNM_Q42_m_13			todayhitop124	Statements Apply Today 3	I avoided situations in which others were likely to watch me
+FNM_Q42_m_14			todayhitop231	Statements Apply Today 3	I felt like I could go for days without sleeping
+FNM_Q42_m_15			todayhitop93	Statements Apply Today 3	Nothing seemed interesting to me
+FNM_Q42_m_16			todayhitop67	Statements Apply Today 3	I could not stay focused on what I was doing
+FNM_Q42_m_17			todayhitop245	Statements Apply Today 3	I looked forward to things with enjoyment
+FNM_Q42_m_18			todayhitop281	Statements Apply Today 3	I felt that I had a lot to look forward to
+FNM_Q42_m_944			today_na3	Statements Apply Today 3	none of these apply to me today
+FNM_Q43_m_1			todayhitop141	Statements Apply Today 4	I thought a lot about food
+FNM_Q43_m_2			todayhitop40	Statements Apply Today 4	I felt insecure about important relationships in my life
+FNM_Q43_m_3			todayhitop204	Statements Apply Today 4	I felt uncomfortable being the center of attention
+FNM_Q43_m_4			todayhitop21	Statements Apply Today 4	I was indecisive
+FNM_Q43_m_5			todayhitop236	Statements Apply Today 4	I felt self-conscious around others
+FNM_Q43_m_6			todayhitop280	Statements Apply Today 4	My appetite was poor
+FNM_Q43_m_7			todayhitop84	Statements Apply Today 4	I felt depressed
+FNM_Q43_m_8			todayhitop120	Statements Apply Today 4	I could not keep myself from eating
+FNM_Q43_m_9			todayhitop77	Statements Apply Today 4	I didn't look forward to seeing friends or family
+FNM_Q43_m_10			todayhitop92	Statements Apply Today 4	It took a lot of effort to do everyday activities
+FNM_Q43_m_11			todayhitop258	Statements Apply Today 4	I found it difficult to speak up in front of others
+FNM_Q43_m_12			todayhitop39	Statements Apply Today 4	It felt like there wasn't anything interesting or fun to do
+FNM_Q43_m_13			todayhitop254	Statements Apply Today 4	I slept very poorly
+FNM_Q43_m_14			todayhitop215	Statements Apply Today 4	My hands were cold or sweaty
+FNM_Q43_m_15			todayhitop95	Statements Apply Today 4	I had trouble making up my mind
+FNM_Q43_m_16			todayhitop106	Statements Apply Today 4	I was proud of myself
+FNM_Q43_m_17			todayhitop283	Statements Apply Today 4	I lost a significant amount of weight without even trying
+FNM_Q43_m_18			todayhitop16	Statements Apply Today 4	I avoided riding in elevators
+FNM_Q43_m_19			todayhitop20	Statements Apply Today 4	I felt tense
+FNM_Q43_m_20			todayhitop189	Statements Apply Today 4	I was easily distracted
+FNM_Q43_m_21			todayhitop1	Statements Apply Today 4	I felt shy around other people
+FNM_Q43_m_22			todayhitop136	Statements Apply Today 4	I often felt jealous
+FNM_Q43_m_23			todayhitop246	Statements Apply Today 4	I was a lot less talkative than usual
+FNM_Q43_m_24			todayhitop248	Statements Apply Today 4	I worried about almost everything
+FNM_Q43_m_25			todayhitop257	Statements Apply Today 4	I felt dizzy or lightheaded
+FNM_Q43_m_26			todayhitop114	Statements Apply Today 4	I had difficulty making eye contact with others
+FNM_Q43_m_27			todayhitop117	Statements Apply Today 4	I felt socially awkward
+FNM_Q43_m_28			todayhitop250	Statements Apply Today 4	I felt like I had a lot of interesting things to do
+FNM_Q43_m_29			todayhitop200	Statements Apply Today 4	I found compliments very encouraging
+FNM_Q43_m_30			todayhitop160	Statements Apply Today 4	I had trouble staying asleep
+FNM_Q43_m_31			todayhitop23	Statements Apply Today 4	I felt cheerful
+FNM_Q43_m_32			todayhitop165	Statements Apply Today 4	I was afraid of flying
+FNM_Q43_m_33			todayhitop244	Statements Apply Today 4	I felt optimistic
+FNM_Q43_m_944			today_na4	Statements Apply Today 4	NA
+FNM_44_m_1			todayhitop9	Statements Apply Today 5	I felt like I was having a lot of fun
+FNM_44_m_2			todayhitop142	Statements Apply Today 5	I had trouble remembering things
+FNM_44_m_3			todayhitop230	Statements Apply Today 5	I felt emotionally numb
+FNM_44_m_4			todayhitop149	Statements Apply Today 5	I felt good about myself
+FNM_44_m_5			todayhitop247	Statements Apply Today 5	I was afraid of heights
+FNM_44_m_6			todayhitop99	Statements Apply Today 5	I needed much less sleep than usual
+FNM_44_m_7			todayhitop66	Statements Apply Today 5	"I did not feel tired, even though I was sleeping less than usual"
+FNM_44_m_8			todayhitop240	Statements Apply Today 5	I felt nervous and 'on edge
+FNM_44_m_9			todayhitop222	Statements Apply Today 5	I was uncomfortable entering a room when others already were present
+FNM_44_m_10			todayhitop90	Statements Apply Today 5	It was difficult for me to make decisions
+FNM_44_m_11			todayhitop113	Statements Apply Today 5	I could not handle rejection
+FNM_44_m_12			todayhitop278	Statements Apply Today 5	I became very anxious during a storm
+FNM_44_m_13			todayhitop203	Statements Apply Today 5	I felt very stressed
+FNM_44_m_14			todayhitop159	Statements Apply Today 5	I was unable to keep my mind on what I was doing
+FNM_44_m_15			todayhitop123	Statements Apply Today 5	Nothing made me laugh
+FNM_44_m_16			todayhitop275	Statements Apply Today 5	I ate even when I was not really hungry
+FNM_44_m_17			todayhitop268	Statements Apply Today 5	I lay awake for a long time before falling asleep
+FNM_44_m_18			todayhitop225	Statements Apply Today 5	I was afraid of the dark
+FNM_44_m_19			todayhitop143	Statements Apply Today 5	I felt guilty
+FNM_44_m_20			todayhitop151	Statements Apply Today 5	I felt that I needed the approval of others
+FNM_44_m_21			todayhitop181	Statements Apply Today 5	I felt like I could keep going and going without ever getting tired
+FNM_44_m_22			todayhitop211	Statements Apply Today 5	I was trembling or shaking
+FNM_44_m_23			todayhitop17	Statements Apply Today 5	I was uncomfortable meeting new people
+FNM_44_m_24			todayhitop126	Statements Apply Today 5	My heart was racing or pounding
+FNM_44_m_25			todayhitop5	Statements Apply Today 5	I had days when I never got tired
+FNM_44_m_26			todayhitop261	Statements Apply Today 5	I woke up early and could not get back to sleep
+FNM_44_m_27			todayhitop220	Statements Apply Today 5	I felt ashamed of things I had done
+FNM_44_m_28			todaycheck_2	Statements Apply Today 5	"To check if you are a true respondent, please select this item"
+FNM_44_m_29			todayhitop15	Statements Apply Today 5	I was short of breath
+FNM_44_m_30			todayhitop72	Statements Apply Today 5	I was disgusted with myself
+FNM_44_m_31			todayhitop140	Statements Apply Today 5	I blamed myself for things
+FNM_44_m_32			todayhitop109	Statements Apply Today 5	I did not feel much like eating
+FNM_44_m_33			todayhitop197	Statements Apply Today 5	I could not stand being alone
+FNM_44_m_34			todayhitop104	Statements Apply Today 5	I felt nauseated
+FNM_44_m_35			today_na5	Statements Apply Today 5	NA
+race_client			race_client	Race - client	
+hispanic			hispanic	Hispanic	
+family_wealth			family_wealth	family_wealth_therm -- Rate yourself	
+family_wealth_dk_flag			family_wealth_dk_flag	family_wealth - don't know flag	
+WHODAS_H2			WHODAS_H2	Days - unable to carry out your usual activities because of any health condition	
+WHODAS_H3			WHODAS_H3	Days - reduce your usual activities because of any health condition	
+genhealth			genhealth	General health condition	
+healthinsur_srg_1			healthinsur_srg_1	"Insurance through a current or former employer or union, or insurance through a spouse's/ other family member's employer"	
+healthinsur_srg_2			healthinsur_srg_2	Insurance purchased directly from an insurance company	
+healthinsur_srg_3			healthinsur_srg_3	"Medicare, for people 65 and older, or people with certain disabilities"	
+healthinsur_srg_4			healthinsur_srg_4	"Medicaid, Medical Assistance, or any kind of government-assistance plan for those with low incomes or a disability"	
+healthinsur_srg_5			healthinsur_srg_5	TRICARE or other military health care	
+healthinsur_srg_6			healthinsur_srg_6	VA (including those who have ever used or enrolled for VA health care)	
+healthinsur_srg_7			healthinsur_srg_7	Indian Health Service	
+healthinsur_srg_8			healthinsur_srg_8	Any other type of health insurance or health coverage plan	
+healthinsur_srg_99			healthinsur_srg_99	"Not applicable, not covered by health insurance currently"	
+marstat			marstat	Marital Status	
+child18			child18	Children under the age of 18	
+employ			employ	Employment Status	
+faminc_new			faminc_new	Family income	
+starttime			starttime	Questionnaire Start Time	
+endtime			endtime	Questionnaire End Time	

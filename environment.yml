@@ -1,0 +1,24 @@
+name: /Users/nielsond/code/cogmood/env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - pandas=1.5.3
+  - scikit-learn
+  - numpy
+  - jupyter
+  - statsmodels
+  - notebook
+  - matplotlib
+  - seaborn
+  - kivy
+  - scipy
+  - openpyxl
+  - blas
+  - xlrd
+  - r-lavaan
+  - r-semtools
+  - r-polycor
+  - r-psych
+  - r-corrplot
+prefix: /Users/nielsond/code/cogmood/env
